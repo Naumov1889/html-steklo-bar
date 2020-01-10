@@ -1,0 +1,31 @@
+@import "../common.styl"
+
+.map-contact-section {
+  position: relative;
+  height 700px//864px
+  background-color: #f4f0e2
+
+  #map-container {
+    position: relative;
+    z-index: 1
+    width: 100%
+    height: 100%
+  }
+
+  &__box.box {
+    position: absolute;
+    z-index 3
+    top: 50%
+    transform translateY(-50%)
+  }
+
+  .contact {
+    &__text {
+      color #505050
+      font-family $oswaldFont
+      font-size 28px
+      font-weight 700
+      font-style italic
+    }
+  }
+}

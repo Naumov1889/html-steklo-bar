@@ -1,0 +1,94 @@
+
+/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\map-contact-section.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 47 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+
+/* line 5 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+html {
+  font-family: 'Open Sans', sans-serif;
+  min-width: 360px;
+  scroll-behavior: smooth;
+}
+
+/* line 11 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+a {
+  color: inherit;
+}
+
+/* line 15 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 20 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 25 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+.container {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 90%;
+}
+
+/* line 31 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+.grid_50 {
+  width: 50%;
+}
+
+/* line 35 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+
+/* line 36 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+.hr_vertical {
+  width: 1px;
+  height: Calc(80%);
+  background-color: #22201e;
+}
+@media (max-width: 600px) {
+
+/* line 44 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+  .container {
+    width: 92%;
+  }
+}
+
+/* line 3 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\map-contact-section.styl */
+.map-contact-section {
+  position: relative;
+  height: 700px;
+  background-color: #f4f0e2;
+}
+
+/* line 8 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\map-contact-section.styl */
+.map-contact-section #map-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 15 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\map-contact-section.styl */
+.map-contact-section__box.box {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 22 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\map-contact-section.styl */
+
+/* line 23 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\map-contact-section.styl */
+.map-contact-section .contact__text {
+  color: #505050;
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  font-style: italic;
+}

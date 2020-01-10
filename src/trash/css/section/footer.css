@@ -1,0 +1,45 @@
+
+/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\footer.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\footer.styl */
+.footer {
+  height: 150px;
+}
+
+/* line 3 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\footer.styl */
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 9 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\footer.styl */
+.footer__policy {
+  color: #2e2e2e;
+  font-size: 17px;
+  letter-spacing: 0.49px;
+}
+
+/* line 16 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\footer.styl */
+.author {
+  width: 150px;
+  text-align: right;
+  color: #141414;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.42px;
+}
+
+/* line 25 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\footer.styl */
+.author a {
+  color: #008ea9;
+  text-decoration: underline;
+}
+
+/* line 28 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\footer.styl */
+.author a:hover {
+  text-decoration: none;
+}

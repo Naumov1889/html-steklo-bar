@@ -1,0 +1,15 @@
+
+/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\contact.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\contact.styl */
+.contact {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* line 5 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\contact.styl */
+.contact__text {
+  font-style: italic;
+}

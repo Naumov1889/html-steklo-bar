@@ -1,0 +1,18 @@
+.text_underline_dashed {
+  position: relative;
+}
+.text_underline_dashed:before {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  border: 1px dashed #f9b438;
+}
+.text_underline_dashed.text_hoverable {
+  cursor: pointer;
+}
+.text_underline_dashed.text_hoverable:hover:before {
+  border: none;
+}

@@ -1,0 +1,72 @@
+@import "../common.styl"
+
+.title_h2 {
+  margin: 0 auto
+  text-align: center
+  font-family $oswaldFont
+  font-size 42px
+  font-weight 700
+  font-style italic
+  line-height 80px
+  text-transform uppercase
+}
+
+.text {
+
+  &_italic {
+    font-style italic
+  }
+
+  &_bold {
+    font-weight: 600
+  }
+
+  &_color {
+    &_primary {
+      color: $primaryColor
+      &.text_underline_dashed:before {
+        border-color: $primaryColor
+      }
+    }
+  }
+
+  &_underline {
+    position: relative;
+
+    &.text_hoverable {
+      cursor: pointer
+
+      &:hover {
+        &:before {
+          display: none
+        }
+      }
+    }
+
+    &_solid {
+
+      &:before {
+        content ''
+        position: absolute;
+        bottom: 0
+        left: 0
+        width: 100%
+        height: 1px
+        background-color: rgba(0, 0, 0, 0.4)
+      }
+    }
+
+    &_dashed {
+
+      &:before {
+        content ''
+        position: absolute;
+        bottom: 0
+        left: 0
+        width: 100%
+        height: 1px
+        border-bottom 1px dashed
+      }
+    }
+  }
+}

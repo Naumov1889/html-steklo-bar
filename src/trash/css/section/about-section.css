@@ -1,0 +1,102 @@
+
+/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 47 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+
+/* line 5 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+html {
+  font-family: 'Open Sans', sans-serif;
+  min-width: 360px;
+  scroll-behavior: smooth;
+}
+
+/* line 11 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+a {
+  color: inherit;
+}
+
+/* line 15 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 20 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 25 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+.container {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 90%;
+}
+
+/* line 31 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+.grid_50 {
+  width: 50%;
+}
+
+/* line 35 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+
+/* line 36 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+.hr_vertical {
+  width: 1px;
+  height: Calc(80%);
+  background-color: #22201e;
+}
+@media (max-width: 600px) {
+
+/* line 44 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+  .container {
+    width: 92%;
+  }
+}
+
+/* line 3 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+
+/* line 4 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+.about-section__text {
+  color: #515151;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+}
+
+/* line 11 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+.about-section-feature-list {
+  display: flex;
+}
+
+/* line 16 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+.about-section-feature {
+  width: 255px;
+  height: 300px;
+}
+
+/* line 20 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+.about-section-feature__img {
+  position: absolute;
+  z-index: 3;
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* line 28 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+.about-section-feature__text {
+  position: relative;
+  z-index: 3;
+  padding-top: 200px;
+  color: #444;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}

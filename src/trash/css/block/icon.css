@@ -1,0 +1,35 @@
+
+/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\icon.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\icon.styl */
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 7 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\icon.styl */
+.icon-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 10 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\icon.styl */
+.icon-list__item {
+  margin: 10px;
+}
+
+/* line 12 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\icon.styl */
+.icon-list__item:first-child {
+  margin-left: 0;
+}
+
+/* line 15 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\icon.styl */
+.icon-list__item:last-child {
+  margin-right: 0;
+}
+
+/* line 21 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\icon.styl */

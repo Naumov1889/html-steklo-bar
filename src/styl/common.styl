@@ -1,0 +1,47 @@
+$primaryColor = #f9b337
+$oswaldFont = 'Oswald', sans-serif;
+$openSansFont = 'Open Sans', sans-serif;
+
+html {
+  font-family: $openSansFont
+  min-width: 360px
+  scroll-behavior: smooth
+}
+
+a {
+  color: inherit
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 0 auto
+  max-width: 1110px
+  width: 90%
+}
+
+.grid_50 {
+  width: 50%
+}
+
+.hr {
+  &_vertical {
+    width: 1px
+    height: Calc(100% - 20px)
+    background-color #22201e
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 92%
+  }
+}

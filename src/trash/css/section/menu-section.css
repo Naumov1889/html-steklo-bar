@@ -1,0 +1,22 @@
+
+/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\menu-section.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\menu-section.styl */
+.menu-section {
+  background-color: #020202;
+  color: #fff;
+}
+
+/* line 5 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\menu-section.styl */
+.menu-section .grid_50 {
+  margin: 0 0 0 auto;
+}
+
+/* line 9 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\menu-section.styl */
+.menu-section__text {
+  color: #e9e9e9;
+  font-size: 18px;
+  line-height: 27px;
+}

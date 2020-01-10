@@ -1,0 +1,44 @@
+
+/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\box.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\box.styl */
+.box {
+  position: relative;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+/* line 7 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\box.styl */
+.box__content {
+  position: relative;
+  z-index: 3;
+}
+
+/* line 12 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\box.styl */
+.box:before {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  border-radius: 10px;
+  border: 1px solid #e7e7e7;
+}
+
+/* line 24 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\box.styl */
+.box:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  bottom: -11px;
+  left: 12px;
+  right: 12px;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.04);
+  border-radius: 10px;
+  background-color: #fff;
+}

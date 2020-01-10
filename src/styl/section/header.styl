@@ -1,0 +1,72 @@
+@import "../common.styl"
+
+.header {
+  height: 48px
+  border-bottom 1px solid rgba(255, 255, 255, 0.1)
+
+  .container {
+    display: flex;
+    align-items center
+    height: 100%
+  }
+
+  &__contact {
+    display: flex;
+    align-items center
+    min-width: 310px;
+    span {
+      margin-right: 24px
+      color #dfdfdf
+      font-size 16px
+      letter-spacing 0.4px
+    }
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content space-between
+  width: 100%
+  height: 100%
+
+  &__item {
+    margin: 0 10px
+    height: 100%
+
+    &:first-child {
+      margin-left: 0
+    }
+
+    &:lst-child {
+      margin-right: 0
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items center
+    position: relative;
+    height: 100%
+    color #9c9c9c
+    font-size 15px
+    letter-spacing 0.38px
+
+    &:before {
+      content ''
+      position: absolute;
+      left: 0
+      bottom: 1px
+      width: 100%
+      height: 1px
+      background-color: $primaryColor
+    }
+
+    &:hover {
+      color: $primaryColor
+
+      &:before {
+        display: block;
+      }
+    }
+  }
+}

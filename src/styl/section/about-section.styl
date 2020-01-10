@@ -1,0 +1,39 @@
+@import "../common.styl"
+
+.about-section {
+  &__text {
+    color #515151
+    font-size 18px
+    line-height 27px
+    text-align: center
+  }
+
+  &-feature-list {
+    display: flex;
+
+  }
+
+  &-feature {
+    width 255px
+    height 300px
+
+    &__img {
+      position: absolute;
+      z-index 3
+      bottom: 100px
+      left: 50%
+      transform: translate(-50%, 0)
+    }
+
+    &__text {
+      position: relative;
+      z-index 3
+      padding-top: 200px
+      color #444444
+      font-family $oswaldFont
+      font-size 24px
+      line-height 29px
+      text-align: center
+    }
+  }
+}
