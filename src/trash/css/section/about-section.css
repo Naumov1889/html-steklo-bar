@@ -3,49 +3,50 @@
 
 /* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
 
-/* line 47 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+/* line 48 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
 
 /* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 
 /* line 5 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 html {
   font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
   min-width: 360px;
   scroll-behavior: smooth;
 }
 
-/* line 11 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 12 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 a {
   color: inherit;
 }
 
-/* line 15 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 16 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .row {
   display: flex;
   flex-direction: row;
 }
 
-/* line 20 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 21 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .column {
   display: flex;
   flex-direction: column;
 }
 
-/* line 25 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 26 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .container {
   margin: 0 auto;
   max-width: 1110px;
   width: 90%;
 }
 
-/* line 31 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 32 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .grid_50 {
   width: 50%;
 }
 
-/* line 35 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
-
 /* line 36 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+
+/* line 37 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .hr_vertical {
   width: 1px;
   height: Calc(80%);
@@ -53,7 +54,7 @@ a {
 }
 @media (max-width: 600px) {
 
-/* line 44 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 45 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
   .container {
     width: 92%;
   }
@@ -64,23 +65,26 @@ a {
 /* line 4 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
 .about-section__text {
   color: #515151;
-  font-size: 18px;
   line-height: 27px;
   text-align: center;
 }
 
-/* line 11 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+/* line 10 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
 .about-section-feature-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -15px;
 }
 
-/* line 16 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+/* line 17 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
 .about-section-feature {
+  margin: 15px;
   width: 255px;
   height: 300px;
 }
 
-/* line 20 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+/* line 22 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
 .about-section-feature__img {
   position: absolute;
   z-index: 3;
@@ -89,7 +93,7 @@ a {
   transform: translate(-50%, 0);
 }
 
-/* line 28 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+/* line 30 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
 .about-section-feature__text {
   position: relative;
   z-index: 3;
@@ -99,4 +103,29 @@ a {
   font-size: 24px;
   line-height: 29px;
   text-align: center;
+}
+
+/* line 41 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+
+/* line 42 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+.about-section-feature:hover .icon-container_in-corner {
+  display: block;
+}
+
+/* line 47 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+.about-section-feature .icon-container_in-corner {
+  display: none;
+  width: 28px;
+  height: 31px;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.05);
+  border-radius: 2px 10px 2px 2px;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9b338 0%, #ffc152 100%);
+}
+
+/* line 56 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\about-section.styl */
+.about-section-feature .icon-container_in-corner .icon {
+  position: absolute;
+  top: 8px;
+  right: 10px;
 }

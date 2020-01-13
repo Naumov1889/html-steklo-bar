@@ -3,49 +3,50 @@
 
 /* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
 
-/* line 47 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+/* line 48 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
 
 /* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 
 /* line 5 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 html {
   font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
   min-width: 360px;
   scroll-behavior: smooth;
 }
 
-/* line 11 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 12 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 a {
   color: inherit;
 }
 
-/* line 15 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 16 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .row {
   display: flex;
   flex-direction: row;
 }
 
-/* line 20 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 21 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .column {
   display: flex;
   flex-direction: column;
 }
 
-/* line 25 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 26 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .container {
   margin: 0 auto;
   max-width: 1110px;
   width: 90%;
 }
 
-/* line 31 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 32 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .grid_50 {
   width: 50%;
 }
 
-/* line 35 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
-
 /* line 36 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+
+/* line 37 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .hr_vertical {
   width: 1px;
   height: Calc(80%);
@@ -53,7 +54,7 @@ a {
 }
 @media (max-width: 600px) {
 
-/* line 44 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 45 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
   .container {
     width: 92%;
   }
@@ -93,7 +94,12 @@ a {
   align-items: flex-end;
 }
 
-/* line 33 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\first-section.styl */
+/* line 32 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\first-section.styl */
+.first-section__phone-callback-grid a {
+  font-size: 15px;
+}
+
+/* line 37 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\first-section.styl */
 .first-section__text {
   display: flex;
   flex-direction: column;
@@ -102,7 +108,7 @@ a {
   text-align: center;
 }
 
-/* line 41 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\first-section.styl */
+/* line 45 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\first-section.styl */
 .first-section__title {
   display: flex;
   flex-direction: column;
@@ -111,7 +117,7 @@ a {
   font-weight: 800;
 }
 
-/* line 49 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\first-section.styl */
+/* line 53 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\first-section.styl */
 .first-section__subtitle {
   font-size: 35px;
   font-weight: 300;
@@ -119,7 +125,18 @@ a {
   color: #cfcfcf;
 }
 
-/* line 56 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\first-section.styl */
+/* line 60 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\first-section.styl */
 .first-section__btn {
   margin: 0 auto;
+}
+
+/* line 65 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\first-section.styl */
+@media (max-width: 550px) {
+
+/* line 66 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\first-section.styl */
+
+/* line 67 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\first-section.styl */
+  .first-section__first-row {
+    display: none;
+  }
 }

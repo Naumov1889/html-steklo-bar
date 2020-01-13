@@ -1,5 +1,5 @@
 block about-section
-    .about-section
+    .about-section#about
         .container
             h2.title_h2 Немного о <span class="text_color_primary">нашем баре</span>
             .about-section__text Бар «Стекло» - новое концептуальное пространство, расположенное в самом центре Москвы, на Зубовском бульваре.
@@ -9,18 +9,30 @@ block about-section
 
                 .about-section-feature-list
                     .about-section-feature.box
-                        img(class="about-section-feature__img" src="img/picture-feature-1.png")
-                        .about-section-feature__text Музыкальные вечера
-                        i.icon.icon_i
-                    .about-section-feature.box
-                        img(class="about-section-feature__img" src="img/picture-feature-2.png")
-                        .about-section-feature__text Опытные повара
+                        .icon-container_in-corner(data-popbox-target="popbox-feature-1")
+                            i.icon(style="width:7px;height:16px;background-image:url(img/icon-info.png)")
+                        .box__content
+                            img(class="about-section-feature__img" src="img/picture-feature-1.png")
+                            .about-section-feature__text Музыкальные вечера
+
 
                     .about-section-feature.box
-                        img(class="about-section-feature__img" src="img/picture-feature-3.jpg")
-                        .about-section-feature__text Уютная атмосфера
-                        i.icon.icon_i
+                        .icon-container_in-corner(data-popbox-target="popbox-feature-2")
+                            i.icon(style="width:7px;height:16px;background-image:url(img/icon-info.png)")
+                        .box__content
+                            img(class="about-section-feature__img" src="img/picture-feature-2.png")
+                            .about-section-feature__text Опытные повара
+
                     .about-section-feature.box
-                        img(class="about-section-feature__img" src="img/picture-feature-4.jpg")
-                        .about-section-feature__text Выставка картин
-                        i.icon.icon_i
+                        .icon-container_in-corner(data-popbox-target="popbox-feature-3")
+                            i.icon(style="width:7px;height:16px;background-image:url(img/icon-info.png)")
+                        .box__content
+                            img(class="about-section-feature__img" src="img/picture-feature-3.jpg")
+                            .about-section-feature__text Уютная атмосфера
+
+                    .about-section-feature.box
+                        .icon-container_in-corner(data-popbox-target="popbox-feature-4")
+                            i.icon(style="width:7px;height:16px;background-image:url(img/icon-info.png)")
+                        .box__content
+                            img(class="about-section-feature__img" src="img/picture-feature-4.jpg")
+                            .about-section-feature__text Выставка картин

@@ -13,16 +13,20 @@
       <div class="top-section">
         <header class="header">
           <div class="container">
+            <div class="header__logo"><img src="img/logo-steklo-bar.png"></div>
             <ul class="nav">
-              <li class="nav__item"><a class="nav__link" href="">Главная</a></li>
-              <li class="nav__item"><a class="nav__link" href="">О нас</a></li>
-              <li class="nav__item"><a class="nav__link" href="">Наше меню</a></li>
-              <li class="nav__item"><a class="nav__link" href="">Галерея</a></li>
-              <li class="nav__item"><a class="nav__link" href="">Контакты</a></li>
+              <li class="nav__item"><a class="nav__link" href="index.html">Главная</a></li>
+              <li class="nav__item"><a class="nav__link" href="#about">О нас</a></li>
+              <li class="nav__item"><a class="nav__link" href="#menu">Наше меню</a></li>
+              <li class="nav__item"><a class="nav__link" href="#gallery">Галерея</a></li>
+              <li class="nav__item"><a class="nav__link" href="#contact">Контакты</a></li>
             </ul><i class="hr_vertical"></i>
             <div class="header__contact"><span>Свяжитесь с нами:</span>
-              <div class="icon-list"><i class="icon-list__item icon" style="background-image: url(img/icon-whatsapp.png);width:25px;height:25px"></i><i class="icon-list__item icon" style="background-image: url(img/icon-telegram.png);width:28px;height:23px"></i><i class="icon-list__item icon" style="background-image: url(img/icon-instagram.png);width:24px;height:25px"></i></div>
+              <div class="contact"><i class="icon" style="background-image: url(img/icon-placemark.png);width:20px;height:24px"></i><span class="contact__text">Зубовский бульвар 16/20<br>строение 1</span></div>
+              <div class="contact"><i class="icon" style="background-image: url(img/icon-phone.png);width:22px;height:23px"></i><a class="contact__text" href="tel:+7 (916) 771-87-82">+7 (916) 771-87-82</a></div>
+              <div class="icon-list"><a class="icon-list__item icon" href="" style="background-image: url(img/icon-whatsapp.png);width:25px;height:25px"></a><a class="icon-list__item icon" href="" style="background-image: url(img/icon-telegram.png);width:28px;height:23px"></a><a class="icon-list__item icon" href="" style="background-image: url(img/icon-instagram.png);width:24px;height:25px"></a></div>
             </div>
+            <button class="burger header__burger"><i></i></button>
           </div>
         </header>
         <div class="first-section">
@@ -31,14 +35,14 @@
               <div class="contact first-section__contact-address"><i class="icon" style="background-image: url(img/icon-placemark.png);width:20px;height:24px"></i><span class="contact__text">Зубовский бульвар 16/20<br>строение 1</span></div>
               <div class="first-section__logo"><img src="img/logo-steklo-bar.png"></div>
               <div class="first-section__phone-callback-grid">
-                <div class="contact first-section__contact-phone"><i class="icon" style="background-image: url(img/icon-phone.png);width:22px;height:23px"></i><a class="contact__text" href="tel:+7 (916) 771-87-82">+7 (916) 771-87-82</a></div><a class="text_underline text_underline_dashed text_hoverable text_color_primary">Заказать звонок</a>
+                <div class="contact first-section__contact-phone"><i class="icon" style="background-image: url(img/icon-phone.png);width:22px;height:23px"></i><a class="contact__text" href="tel:+7 (916) 771-87-82">+7 (916) 771-87-82</a></div><a class="text_underline text_underline_dashed text_hoverable text_color_primary" data-popbox-target="popbox-callback-2">Заказать звонок</a>
               </div>
             </div>
             <h1 class="first-section__text"><span class="first-section__title"><b class="text_color_primary">БАНКЕТЫ, КОРПОРАТИВЫ</b> и другие мероприятия по доступным ценам</span><span class="first-section__subtitle">зал до 40 персон, 2 зал до 20 персон</span></h1><a class="first-section__btn btn">ЗАБРОНИРОВАТЬ СТОЛИК</a>
           </div>
         </div>
       </div>
-      <div class="about-section">
+      <div class="about-section" id="about">
         <div class="container">
           <h2 class="title_h2">Немного о <span class="text_color_primary">нашем баре</span></h2>
           <div class="about-section__text">
@@ -46,37 +50,49 @@
             <br><br>Бар «Стекло» - это уникальное место, где можно познакомиться с работами молодых и успешных деятелей искусств – художников, скульпторов, фотографов, и многих других. Тут надо следить за обновлениями нашей афиши.
             <br><br>Важно, что на протяжении дня бар «Стекло» радует своих гостей вкусными полноценными бизнес-ланчами, а вечерами становится площакой для различных мероприятий. В баре «Стекло» все творческие люди найдут себя и найдут единомышленников.
             <div class="about-section-feature-list">
-              <div class="about-section-feature box"><img class="about-section-feature__img" src="img/picture-feature-1.png">
-                <div class="about-section-feature__text">Музыкальные вечера</div><i class="icon icon_i"></i>
+              <div class="about-section-feature box">
+                <div class="icon-container_in-corner" data-popbox-target="popbox-feature-1"><i class="icon" style="width:7px;height:16px;background-image:url(img/icon-info.png)"></i></div>
+                <div class="box__content"><img class="about-section-feature__img" src="img/picture-feature-1.png">
+                  <div class="about-section-feature__text">Музыкальные вечера</div>
+                </div>
               </div>
-              <div class="about-section-feature box"><img class="about-section-feature__img" src="img/picture-feature-2.png">
-                <div class="about-section-feature__text">Опытные повара</div>
+              <div class="about-section-feature box">
+                <div class="icon-container_in-corner" data-popbox-target="popbox-feature-2"><i class="icon" style="width:7px;height:16px;background-image:url(img/icon-info.png)"></i></div>
+                <div class="box__content"><img class="about-section-feature__img" src="img/picture-feature-2.png">
+                  <div class="about-section-feature__text">Опытные повара</div>
+                </div>
               </div>
-              <div class="about-section-feature box"><img class="about-section-feature__img" src="img/picture-feature-3.jpg">
-                <div class="about-section-feature__text">Уютная атмосфера</div><i class="icon icon_i"></i>
+              <div class="about-section-feature box">
+                <div class="icon-container_in-corner" data-popbox-target="popbox-feature-3"><i class="icon" style="width:7px;height:16px;background-image:url(img/icon-info.png)"></i></div>
+                <div class="box__content"><img class="about-section-feature__img" src="img/picture-feature-3.jpg">
+                  <div class="about-section-feature__text">Уютная атмосфера</div>
+                </div>
               </div>
-              <div class="about-section-feature box"><img class="about-section-feature__img" src="img/picture-feature-4.jpg">
-                <div class="about-section-feature__text">Выставка картин</div><i class="icon icon_i"></i>
+              <div class="about-section-feature box">
+                <div class="icon-container_in-corner" data-popbox-target="popbox-feature-4"><i class="icon" style="width:7px;height:16px;background-image:url(img/icon-info.png)"></i></div>
+                <div class="box__content"><img class="about-section-feature__img" src="img/picture-feature-4.jpg">
+                  <div class="about-section-feature__text">Выставка картин</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="menu-section">
+      <div class="menu-section" id="menu">
         <div class="container">
           <div class="grid_50">
             <h2 class="title_h2">Наше <span class="text_color_primary">меню</span></h2>
             <div class="menu-section__text">
               В меню представлены практически все <span class="text_italic text_color_primary text_bold">популярные блюда европейской кухни, включая салаты, бургеры, домашнюю пасту, и многое другое.</span><br><br>Блюда любимы многими, так как гармонично сочетают в себе натуральный вкус ингредиентов и умеренное количество различных специй, приправ и соусов</div>
-            <div class="btn">скачать меню</div>
+            <div class="btn" data-popbox-target="popbox-callback-1">скачать меню</div>
           </div>
         </div>
       </div>
-      <div class="gallery-section">
+      <div class="gallery-section" id="gallery">
         <h2 class="title_h2">наша <span class="text_color_primary">галерея</span></h2>
         <div class="gallery"><img class="gallery__item" src="img/picture-gallery-1.jpg"><img class="gallery__item" src="img/picture-gallery-2.jpg"><img class="gallery__item" src="img/picture-gallery-3.jpg"><img class="gallery__item" src="img/picture-gallery-4.jpg"><img class="gallery__item" src="img/picture-gallery-5.jpg"><img class="gallery__item" src="img/picture-gallery-6.jpg"><img class="gallery__item" src="img/picture-gallery-7.jpg"><img class="gallery__item" src="img/picture-gallery-8.jpg"><img class="gallery__item" src="img/picture-gallery-9.jpg"><img class="gallery__item" src="img/picture-gallery-10.jpg"><img class="gallery__item" src="img/picture-gallery-11.jpg"><img class="gallery__item" src="img/picture-gallery-12.jpg"></div>
       </div>
-      <div class="map-contact-section">
+      <div class="map-contact-section" id="contact">
         <div id="map-container"></div>
         <div class="container">
           <div class="map-contact-section__box box">
@@ -94,8 +110,76 @@
         </div>
       </footer>
     </div>
+    <div class="overlay"></div>
     <div class="popbox" data-popbox-id="popbox-callback-1">
-      <div class="popbox_container"><i class="icon" data-popbox-close="popbox-callback-1"></i></div>
+      <div class="popbox_container popbox_container_narrow box">
+        <div class="icon-container_in-corner" data-popbox-close="popbox-callback-1"><i class="icon popbox__cross" style="width:10px;height:10px;background-image: url(img/icon-cross.png)"></i></div>
+        <div class="box__content">
+          <h2 class="title_h2"><span class="text_color_primary">оставьте свой</span> номер телефона</h2>
+          <div class="popbox__subtitle">Оставьте ваши контактные данные и мы вышлем вам pdf-файл нашего меню</div>
+          <form class="form">
+            <label class="input-label" for="input-name-1">Введите ваше имя:</label>
+            <div class="input-container">
+              <input class="input" placeholder="Ваше имя" id="input-name-1"><i class="icon icon_user" style="width:21px;height:27px;background-image:url(img/icon-user.png)"></i>
+            </div>
+            <label class="input-label" for="input-phone-1">Контактный телефон:</label>
+            <div class="input-container">
+              <input class="input" placeholder="Ваше имя" name="input-phone-1" id="input-phone-1"><i class="icon icon_phone" style="width:25px;height:26px;background-image:url(img/icon-phone.png)"></i>
+            </div>
+            <button class="btn">скачать меню</button>
+            <label class="checkbox form-checkbox"><span class="checkbox__text">Даю согласие на обработку моих<br><a class="text_color_primary" href="">персональных данных</a></span>
+              <input class="checkbox__input" type="checkbox"><i class="checkbox__checkmark"></i>
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popbox" data-popbox-id="popbox-callback-2">
+      <div class="popbox_container popbox_container_narrow box">
+        <div class="icon-container_in-corner" data-popbox-close="popbox-callback-2"><i class="icon popbox__cross" style="width:10px;height:10px;background-image: url(img/icon-cross.png)"></i></div>
+        <div class="box__content">
+          <h2 class="title_h2"><span class="text_color_primary">оставьте свой</span> номер телефона</h2>
+          <div class="popbox__subtitle">Оставьте ваши контактные данные и мы вышлем вам pdf-файл нашего меню</div>
+          <form class="form">
+            <label class="input-label" for="input-name-2">Введите ваше имя:</label>
+            <div class="input-container">
+              <input class="input" placeholder="Ваше имя" id="input-name-2"><i class="icon icon_user" style="width:21px;height:27px;background-image:url(img/icon-user.png)"></i>
+            </div>
+            <label class="input-label" for="input-phone-2">Контактный телефон:</label>
+            <div class="input-container">
+              <input class="input" placeholder="Ваше имя" name="input-phone-2" id="input-phone-2"><i class="icon icon_phone" style="width:25px;height:26px;background-image:url(img/icon-phone.png)"></i>
+            </div>
+            <button class="btn">скачать меню</button>
+            <label class="checkbox form-checkbox"><span class="checkbox__text">Даю согласие на обработку моих<br><a class="text_color_primary" href="">персональных данных</a></span>
+              <input class="checkbox__input" type="checkbox"><i class="checkbox__checkmark"></i>
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popbox" data-popbox-id="popbox-feature-1">
+      <div class="popbox_container popbox_container_wide box">
+        <div class="icon-container_in-corner" data-popbox-close="popbox-feature-1"><i class="icon popbox__cross" style="width:10px;height:10px;background-image: url(img/icon-cross.png)"></i></div>
+        <div class="box__content" style="color:#515151"><b style="color:#444444">Дорогие друзья</b>!<br><br>Бар Стекло совместно с творческим Союзом художников России начинает цикл выставок современных художников.<br><br>Выставки у нас небольшие, работы маленькие, а художники - хорошие.<br>Экспозиция сменяется раз в две недели.<br><br>Первая выставка - “Пространства” Максима Тимофеева, молодого, но бойкого художника из Саратова.<br><br>Если вам понравились картины, не стесняйтесь сказать нам об этом, а мы с Максимом будем очень рады. А если очень понравились - купите и радуйтесь дома!</div>
+      </div>
+    </div>
+    <div class="popbox" data-popbox-id="popbox-feature-2">
+      <div class="popbox_container popbox_container_wide box">
+        <div class="icon-container_in-corner" data-popbox-close="popbox-feature-2"><i class="icon popbox__cross" style="width:10px;height:10px;background-image: url(img/icon-cross.png)"></i></div>
+        <div class="box__content" style="color:#515151"><b style="color:#444444">Дорогие друзья</b>!<br><br>Бар Стекло совместно с творческим Союзом художников России начинает цикл выставок современных художников.<br><br>Выставки у нас небольшие, работы маленькие, а художники - хорошие.<br>Экспозиция сменяется раз в две недели.<br><br>Первая выставка - “Пространства” Максима Тимофеева, молодого, но бойкого художника из Саратова.<br><br>Если вам понравились картины, не стесняйтесь сказать нам об этом, а мы с Максимом будем очень рады. А если очень понравились - купите и радуйтесь дома!</div>
+      </div>
+    </div>
+    <div class="popbox" data-popbox-id="popbox-feature-3">
+      <div class="popbox_container popbox_container_wide box">
+        <div class="icon-container_in-corner" data-popbox-close="popbox-feature-3"><i class="icon popbox__cross" style="width:10px;height:10px;background-image: url(img/icon-cross.png)"></i></div>
+        <div class="box__content" style="color:#515151"><b style="color:#444444">Дорогие друзья</b>!<br><br>Бар Стекло совместно с творческим Союзом художников России начинает цикл выставок современных художников.<br><br>Выставки у нас небольшие, работы маленькие, а художники - хорошие.<br>Экспозиция сменяется раз в две недели.<br><br>Первая выставка - “Пространства” Максима Тимофеева, молодого, но бойкого художника из Саратова.<br><br>Если вам понравились картины, не стесняйтесь сказать нам об этом, а мы с Максимом будем очень рады. А если очень понравились - купите и радуйтесь дома!</div>
+      </div>
+    </div>
+    <div class="popbox" data-popbox-id="popbox-feature-4">
+      <div class="popbox_container popbox_container_wide box">
+        <div class="icon-container_in-corner" data-popbox-close="popbox-feature-4"><i class="icon popbox__cross" style="width:10px;height:10px;background-image: url(img/icon-cross.png)"></i></div>
+        <div class="box__content" style="color:#515151"><b style="color:#444444">Дорогие друзья</b>!<br><br>Бар Стекло совместно с творческим Союзом художников России начинает цикл выставок современных художников.<br><br>Выставки у нас небольшие, работы маленькие, а художники - хорошие.<br>Экспозиция сменяется раз в две недели.<br><br>Первая выставка - “Пространства” Максима Тимофеева, молодого, но бойкого художника из Саратова.<br><br>Если вам понравились картины, не стесняйтесь сказать нам об этом, а мы с Максимом будем очень рады. А если очень понравились - купите и радуйтесь дома!</div>
+      </div>
     </div>
     <script src="https://api-maps.yandex.ru/2.1/?apikey=c599d252-3a6f-4b64-872c-a529f6263f40&amp;lang=ru_RU"></script>
     <script src="js/concat-js-libs.js"></script>

@@ -3,22 +3,33 @@
   background-repeat: no-repeat
   background-position: center
   background-size: cover;
+}
 
-  &-list {
-    display: flex;
-    justify-content space-between
-    &__item {
-      margin: 10px
-      &:first-child {
-        margin-left: 0
-      }
-      &:last-child {
-        margin-right: 0
-      }
+.icon-list {
+  display: flex;
+  justify-content space-between
+
+  &__item {
+    margin: 10px
+
+    &:first-child {
+      margin-left: 0 !important
+    }
+
+    &:last-child {
+      margin-right: 0 !important
     }
   }
+}
 
-  &_whatsapp {
+.icon-container_in-corner {
+  position: absolute;
+  z-index 4
+  top: 0
+  right: 0
 
-  }
+  width 28px
+  height 31px
+  border-radius 2px 10px 2px 2px
+  background-color #efefef
 }

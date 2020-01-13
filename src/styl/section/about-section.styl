@@ -3,17 +3,19 @@
 .about-section {
   &__text {
     color #515151
-    font-size 18px
     line-height 27px
     text-align: center
   }
 
   &-feature-list {
     display: flex;
-
+    flex-wrap wrap
+    justify-content center
+    margin: -15px
   }
 
   &-feature {
+    margin: 15px
     width 255px
     height 300px
 
@@ -34,6 +36,28 @@
       font-size 24px
       line-height 29px
       text-align: center
+    }
+
+    &:hover {
+      .icon-container_in-corner {
+        display: block;
+      }
+    }
+
+    .icon-container_in-corner {
+      display: none
+      width 28px
+      height 31px
+      box-shadow 0 20px 35px rgba(0, 0, 0, 0.05)
+      border-radius 2px 10px 2px 2px
+      background-color #ffffff
+      background-image linear-gradient(to top, #f9b338 0%, #ffc152 100%)
+
+      .icon {
+        position: absolute
+        top 8px
+        right 10px
+      }
     }
   }
 }

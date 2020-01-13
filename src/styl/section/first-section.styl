@@ -28,6 +28,10 @@
     display: flex;
     flex-direction column
     align-items flex-end
+
+    a {
+      font-size: 15px
+    }
   }
 
   &__text {
@@ -56,4 +60,12 @@
   &__btn {
     margin: 0 auto
   }
+}
+
+@media (max-width: 550px) {
+    .first-section {
+      &__first-row {
+        display: none
+      }
+    }
 }

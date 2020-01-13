@@ -27,8 +27,7 @@ img {
 	height: auto;
 }
 
-button,
-label {
+button {
 	cursor: pointer;
 	-webkit-user-select: none;
 	-moz-user-select: none;

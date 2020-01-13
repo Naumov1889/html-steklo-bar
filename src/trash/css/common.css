@@ -1,57 +1,58 @@
 
-/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 48 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 
 /* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
 
 /* line 5 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 html {
   font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
   min-width: 360px;
   scroll-behavior: smooth;
 }
 
-/* line 11 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 12 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 a {
   color: inherit;
 }
 
-/* line 15 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 16 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .row {
   display: flex;
   flex-direction: row;
 }
 
-/* line 20 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 21 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .column {
   display: flex;
   flex-direction: column;
 }
 
-/* line 25 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 26 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .container {
   margin: 0 auto;
   max-width: 1110px;
   width: 90%;
 }
 
-/* line 31 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 32 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .grid_50 {
   width: 50%;
 }
 
-/* line 35 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
-
 /* line 36 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+
+/* line 37 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 .hr_vertical {
   width: 1px;
   height: Calc(80%);
   background-color: #22201e;
 }
 
-/* line 43 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 44 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
 @media (max-width: 600px) {
 
-/* line 44 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 45 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
   .container {
     width: 92%;
   }

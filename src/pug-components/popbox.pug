@@ -1,4 +1,70 @@
 block popbox
     .popbox(data-popbox-id="popbox-callback-1")
-        .popbox_container
-            i.icon(data-popbox-close="popbox-callback-1")
+        .popbox_container.popbox_container_narrow.box
+            .icon-container_in-corner(data-popbox-close="popbox-callback-1")
+                i.icon.popbox__cross(style="width:10px;height:10px;background-image: url(img/icon-cross.png)")
+            .box__content
+                h2.title_h2 <span class="text_color_primary">оставьте свой</span> номер телефона
+                .popbox__subtitle Оставьте ваши контактные данные и мы вышлем вам pdf-файл нашего меню
+                form.form
+                    label.input-label(for="input-name-1") Введите ваше имя:
+                    .input-container
+                        input(class="input" placeholder="Ваше имя" id="input-name-1")
+                        i.icon.icon_user(style="width:21px;height:27px;background-image:url(img/icon-user.png)")
+
+                    label.input-label(for="input-phone-1") Контактный телефон:
+                    .input-container
+                        input(class="input" placeholder="Ваше имя" name="input-phone-1" id="input-phone-1")
+                        i.icon.icon_phone(style="width:25px;height:26px;background-image:url(img/icon-phone.png)")
+                    button(class="btn") скачать меню
+                    label(class="checkbox form-checkbox")
+                        span.checkbox__text Даю согласие на обработку моих<br><a class="text_color_primary" href="">персональных данных</a>
+                        input(class="checkbox__input" type="checkbox")
+                        i.checkbox__checkmark
+
+    .popbox(data-popbox-id="popbox-callback-2")
+        .popbox_container.popbox_container_narrow.box
+            .icon-container_in-corner(data-popbox-close="popbox-callback-2")
+                i.icon.popbox__cross(style="width:10px;height:10px;background-image: url(img/icon-cross.png)")
+            .box__content
+                h2.title_h2 <span class="text_color_primary">оставьте свой</span> номер телефона
+                .popbox__subtitle Оставьте ваши контактные данные и мы вышлем вам pdf-файл нашего меню
+                form.form
+                    label.input-label(for="input-name-2") Введите ваше имя:
+                    .input-container
+                        input(class="input" placeholder="Ваше имя" id="input-name-2")
+                        i.icon.icon_user(style="width:21px;height:27px;background-image:url(img/icon-user.png)")
+
+                    label.input-label(for="input-phone-2") Контактный телефон:
+                    .input-container
+                        input(class="input" placeholder="Ваше имя" name="input-phone-2" id="input-phone-2")
+                        i.icon.icon_phone(style="width:25px;height:26px;background-image:url(img/icon-phone.png)")
+                    button(class="btn") скачать меню
+                    label(class="checkbox form-checkbox")
+                        span.checkbox__text Даю согласие на обработку моих<br><a class="text_color_primary" href="">персональных данных</a>
+                        input(class="checkbox__input" type="checkbox")
+                        i.checkbox__checkmark
+
+    .popbox(data-popbox-id="popbox-feature-1")
+        .popbox_container.popbox_container_wide.box
+            .icon-container_in-corner(data-popbox-close="popbox-feature-1")
+                i.icon.popbox__cross(style="width:10px;height:10px;background-image: url(img/icon-cross.png)")
+            .box__content(style="color:#515151") <b style="color:#444444">Дорогие друзья</b>!<br><br>Бар Стекло совместно с творческим Союзом художников России начинает цикл выставок современных художников.<br><br>Выставки у нас небольшие, работы маленькие, а художники - хорошие.<br>Экспозиция сменяется раз в две недели.<br><br>Первая выставка - “Пространства” Максима Тимофеева, молодого, но бойкого художника из Саратова.<br><br>Если вам понравились картины, не стесняйтесь сказать нам об этом, а мы с Максимом будем очень рады. А если очень понравились - купите и радуйтесь дома!
+
+    .popbox(data-popbox-id="popbox-feature-2")
+        .popbox_container.popbox_container_wide.box
+            .icon-container_in-corner(data-popbox-close="popbox-feature-2")
+                i.icon.popbox__cross(style="width:10px;height:10px;background-image: url(img/icon-cross.png)")
+            .box__content(style="color:#515151") <b style="color:#444444">Дорогие друзья</b>!<br><br>Бар Стекло совместно с творческим Союзом художников России начинает цикл выставок современных художников.<br><br>Выставки у нас небольшие, работы маленькие, а художники - хорошие.<br>Экспозиция сменяется раз в две недели.<br><br>Первая выставка - “Пространства” Максима Тимофеева, молодого, но бойкого художника из Саратова.<br><br>Если вам понравились картины, не стесняйтесь сказать нам об этом, а мы с Максимом будем очень рады. А если очень понравились - купите и радуйтесь дома!
+
+    .popbox(data-popbox-id="popbox-feature-3")
+        .popbox_container.popbox_container_wide.box
+            .icon-container_in-corner(data-popbox-close="popbox-feature-3")
+                i.icon.popbox__cross(style="width:10px;height:10px;background-image: url(img/icon-cross.png)")
+            .box__content(style="color:#515151") <b style="color:#444444">Дорогие друзья</b>!<br><br>Бар Стекло совместно с творческим Союзом художников России начинает цикл выставок современных художников.<br><br>Выставки у нас небольшие, работы маленькие, а художники - хорошие.<br>Экспозиция сменяется раз в две недели.<br><br>Первая выставка - “Пространства” Максима Тимофеева, молодого, но бойкого художника из Саратова.<br><br>Если вам понравились картины, не стесняйтесь сказать нам об этом, а мы с Максимом будем очень рады. А если очень понравились - купите и радуйтесь дома!
+
+    .popbox(data-popbox-id="popbox-feature-4")
+        .popbox_container.popbox_container_wide.box
+            .icon-container_in-corner(data-popbox-close="popbox-feature-4")
+                i.icon.popbox__cross(style="width:10px;height:10px;background-image: url(img/icon-cross.png)")
+            .box__content(style="color:#515151") <b style="color:#444444">Дорогие друзья</b>!<br><br>Бар Стекло совместно с творческим Союзом художников России начинает цикл выставок современных художников.<br><br>Выставки у нас небольшие, работы маленькие, а художники - хорошие.<br>Экспозиция сменяется раз в две недели.<br><br>Первая выставка - “Пространства” Максима Тимофеева, молодого, но бойкого художника из Саратова.<br><br>Если вам понравились картины, не стесняйтесь сказать нам об этом, а мы с Максимом будем очень рады. А если очень понравились - купите и радуйтесь дома!

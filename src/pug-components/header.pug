@@ -1,20 +1,32 @@
 block header
     header.header
         .container
+            .header__logo
+                img(src="img/logo-steklo-bar.png")
             ul.nav
                 li.nav__item
-                    a(class="nav__link" href="") Главная
+                    a(class="nav__link" href="index.html") Главная
                 li.nav__item
-                    a(class="nav__link" href="") О нас
+                    a(class="nav__link" href="#about") О нас
                 li.nav__item
-                    a(class="nav__link" href="") Наше меню
+                    a(class="nav__link" href="#menu") Наше меню
                 li.nav__item
-                    a(class="nav__link" href="") Галерея
+                    a(class="nav__link" href="#gallery") Галерея
                 li.nav__item
-                    a(class="nav__link" href="") Контакты
+                    a(class="nav__link" href="#contact") Контакты
             i.hr_vertical
             .header__contact <span>Свяжитесь с нами:</span>
+                .contact
+                    i.icon(style="background-image: url(img/icon-placemark.png);width:20px;height:24px")
+                    span.contact__text Зубовский бульвар 16/20<br>строение 1
+                .contact
+                    i.icon(style="background-image: url(img/icon-phone.png);width:22px;height:23px")
+                    a(class="contact__text" href="tel:+7 (916) 771-87-82") +7 (916) 771-87-82
                 .icon-list
-                    i.icon-list__item.icon(style="background-image: url(img/icon-whatsapp.png);width:25px;height:25px")
-                    i.icon-list__item.icon(style="background-image: url(img/icon-telegram.png);width:28px;height:23px")
-                    i.icon-list__item.icon(style="background-image: url(img/icon-instagram.png);width:24px;height:25px")
+                    a.icon-list__item.icon(href="" style="background-image: url(img/icon-whatsapp.png);width:25px;height:25px")
+                    a.icon-list__item.icon(href="" style="background-image: url(img/icon-telegram.png);width:28px;height:23px")
+
+                    a.icon-list__item.icon(href="" style="background-image: url(img/icon-instagram.png);width:24px;height:25px")
+
+            button.burger.header__burger
+                i

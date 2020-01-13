@@ -1,0 +1,75 @@
+
+/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\checkbox.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\checkbox.styl */
+.checkbox {
+  padding-left: 30px;
+  margin: 0 auto;
+  width: max-content;
+  text-align: center;
+}
+
+/* line 7 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\checkbox.styl */
+.checkbox .checkbox__text {
+  color: #4f4f4f;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 13 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\checkbox.styl */
+.checkbox .checkbox__text a {
+  display: block;
+  text-decoration: underline;
+}
+
+/* line 17 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\checkbox.styl */
+.checkbox .checkbox__text a:hover {
+  text-decoration: none;
+}
+
+/* line 23 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\checkbox.styl */
+.checkbox__checkmark {
+  top: 8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #ffd856;
+  background-image: linear-gradient(to top, #f9b337 0%, #ffc153 100%);
+}
+
+/* line 31 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\checkbox.styl */
+.checkbox__checkmark:after {
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 8px;
+  border: none;
+  background-image: url("../../img/icon-tick.png");
+  opacity: 0;
+  transition: ease-in-out 0.1s;
+}
+
+/* line 46 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\checkbox.styl */
+.checkbox:hover .checkbox__input ~ .checkbox__checkmark {
+  background-color: #b9b9b9;
+}
+
+/* line 50 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\checkbox.styl */
+.checkbox__input:checked ~ .checkbox__checkmark {
+  background-color: #b9b9b9;
+}
+
+/* line 54 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\checkbox.styl */
+.checkbox .checkbox__input:checked ~ .checkbox__checkmark {
+  background-color: #b9b9b9;
+}
+
+/* line 57 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\checkbox.styl */
+.checkbox .checkbox__input:checked ~ .checkbox__checkmark:after {
+  opacity: 1;
+}

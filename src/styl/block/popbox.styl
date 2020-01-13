@@ -1,0 +1,38 @@
+.popbox {
+  background-color: rgba(0, 0, 0, 0.85)
+  text-align: center;
+
+  .popbox_container_narrow {
+    max-width 445px
+
+    .box__content {
+      padding: 16px 26px 20px 26px
+    }
+  }
+
+  .popbox_container_wide {
+    max-width 980px
+
+    .box__content {
+      padding: 16px 40px 20px 40px
+    }
+  }
+
+  &__subtitle {
+    color #515151
+    line-height 27px
+  }
+
+  &__cross {
+    position: absolute
+    z-index 4
+    top: 11px
+    right: 9px
+  }
+}
+
+[data-popbox-close],
+[data-popbox-target] {
+  cursor pointer
+}
+

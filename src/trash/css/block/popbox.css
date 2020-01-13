@@ -1,0 +1,50 @@
+
+/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\popbox.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\popbox.styl */
+.popbox {
+  background-color: rgba(0,0,0,0.85);
+  text-align: center;
+}
+
+/* line 5 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\popbox.styl */
+.popbox .popbox_container_narrow {
+  max-width: 445px;
+}
+
+/* line 8 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\popbox.styl */
+.popbox .popbox_container_narrow .box__content {
+  padding: 16px 26px 20px 26px;
+}
+
+/* line 13 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\popbox.styl */
+.popbox .popbox_container_wide {
+  max-width: 980px;
+}
+
+/* line 16 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\popbox.styl */
+.popbox .popbox_container_wide .box__content {
+  padding: 16px 40px 20px 40px;
+}
+
+/* line 21 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\popbox.styl */
+.popbox__subtitle {
+  color: #515151;
+  line-height: 27px;
+}
+
+/* line 26 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\popbox.styl */
+.popbox__cross {
+  position: absolute;
+  z-index: 4;
+  top: 11px;
+  right: 9px;
+}
+
+/* line 34 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\popbox.styl */
+[data-popbox-close],
+[data-popbox-target] {
+  cursor: pointer;
+}
