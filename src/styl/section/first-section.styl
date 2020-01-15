@@ -1,10 +1,13 @@
 @import "../common.styl"
 
 .first-section {
+  padding-bottom 320px
 
   &__first-row {
     display: flex;
     justify-content space-between
+    align-items center
+    margin-top 16px
   }
 
   &__contact-address {
@@ -45,6 +48,7 @@
   &__title {
     display: flex;
     flex-direction column
+    margin-top: 100px
     font-size: 55px
     line-height 80px
     font-weight: 800
@@ -58,14 +62,108 @@
   }
 
   &__btn {
-    margin: 0 auto
+    margin: 50px auto 0 auto
+    width: 370px
+  }
+}
+
+@media (max-width: 1050px) {
+  .first-section {
+    padding-bottom 190px
+    &__contact-address {
+      .contact__text {
+        padding-left: 5px
+        font-size 17px
+        line-height 24px
+      }
+      .icon {
+        margin-top 0px
+        transform scale(0.77)
+      }
+    }
+
+    &__contact-phone {
+      .contact__text {
+        padding-left: 5px
+        font-size 21px
+      }
+      .icon {
+        transform scale(0.77)
+      }
+    }
+
+    &__phone-callback-grid {
+      a {
+        font-size: 12px
+        &:before {
+          bottom: -4px
+        }
+      }
+    }
+
+    &__title {
+      margin-top: 80px
+      font-size: 34px
+      line-height: 48px
+    }
+
+    &__subtitle {
+      font-size: 24px
+      line-height: 50px
+    }
+
+    &__btn {
+      margin-top: 20px
+      width: 290px
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .first-section {
+    &__logo {
+      width: 160px
+    }
+
+    &__contact-address {
+      .contact__text {
+        font-size 15px
+        line-height 22px
+      }
+      .icon {
+        margin-top 2px
+      }
+    }
+
+    &__contact-phone {
+      .contact__text {
+        font-size 17px
+      }
+      .icon {
+        transform scale(0.77)
+      }
+    }
+
+
+    &__title {
+      font-size: 28px
+      line-height: 36px
+    }
+
+    &__subtitle {
+      font-size: 22px
+    }
   }
 }
 
 @media (max-width: 550px) {
-    .first-section {
-      &__first-row {
-        display: none
-      }
+  .first-section {
+    &__first-row {
+      display: none
     }
+
+    &__title {
+
+    }
+  }
 }

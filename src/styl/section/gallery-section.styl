@@ -1,12 +1,18 @@
 .gallery-section {
+  padding-bottom 40px
+  background: #fff url("../../img/bg-about-section.jpg") top
+  background-size: cover;
 
+  .title_h2 {
+    padding 24px 0 24px 0
+  }
 }
 
 .gallery {
   display: flex;
   flex-wrap: wrap
   justify-content center
-  margin: -13px -9px
+  margin: -13px -20px
 
   &__item {
     display: inline-block
@@ -17,12 +23,23 @@
     object-fit cover
     border-radius 5px
   }
+
+
+}
+
+@media (max-width: 1400px) {
+  .gallery-section {
+    .title_h2 {
+      padding-top 0
+    }
+  }
 }
 
 @media (max-width: 560px) {
   .gallery {
     margin: -13px 0
     padding: 0 16px
+
     &__item {
       margin: 8px 9px 8px 9px
     }

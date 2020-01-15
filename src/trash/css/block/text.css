@@ -1,13 +1,13 @@
 
-/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 297 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/node_modules/stylus/lib/functions/index.styl */
 
-/* line 48 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+/* line 54 : /home/n/WebstormProjects/html-steklo-bar/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 
-/* line 5 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 5 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -15,52 +15,59 @@ html {
   scroll-behavior: smooth;
 }
 
-/* line 12 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 12 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 a {
   color: inherit;
 }
 
-/* line 16 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 16 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .row {
   display: flex;
   flex-direction: row;
 }
 
-/* line 21 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 21 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .column {
   display: flex;
   flex-direction: column;
 }
 
-/* line 26 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 26 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .container {
   margin: 0 auto;
   max-width: 1110px;
   width: 90%;
 }
 
-/* line 32 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 32 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .grid_50 {
   width: 50%;
 }
 
-/* line 36 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 36 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 
-/* line 37 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 37 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .hr_vertical {
   width: 1px;
   height: Calc(80%);
   background-color: #22201e;
 }
+@media (max-width: 750px) {
+
+/* line 45 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
+  html {
+    font-size: 16px;
+  }
+}
 @media (max-width: 600px) {
 
-/* line 45 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 51 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
   .container {
     width: 92%;
   }
 }
 
-/* line 3 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 3 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 .title_h2 {
   margin: 0 auto;
   text-align: center;
@@ -72,69 +79,89 @@ a {
   text-transform: uppercase;
 }
 
-/* line 14 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 14 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 
-/* line 16 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 16 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 .text_italic {
   font-style: italic;
 }
 
-/* line 20 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 20 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 .text_bold {
   font-weight: 600;
 }
 
-/* line 24 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 24 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 
-/* line 25 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 25 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 .text_color_primary {
   color: #f9b337;
 }
 
-/* line 27 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 28 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 .text_color_primary.text_underline_dashed:before {
   border-color: #f9b337;
 }
 
-/* line 33 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 34 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 .text_underline {
   position: relative;
 }
 
-/* line 36 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 37 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 .text_underline.text_hoverable {
   cursor: pointer;
 }
 
-/* line 39 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 40 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 
-/* line 40 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 41 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 .text_underline.text_hoverable:hover:before {
-  display: none;
+  opacity: 0;
 }
 
-/* line 46 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 47 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 
-/* line 48 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 49 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 .text_underline_solid:before {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: -8px;
   left: 0;
   width: 100%;
-  height: 1px;
-  background-color: rgba(0,0,0,0.4);
+  height: 8px;
+  border-bottom: 1px solid rgba(0,0,0,0.4);
 }
 
-/* line 59 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 60 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 
-/* line 61 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\text.styl */
+/* line 62 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
 .text_underline_dashed:before {
   content: '';
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 1px;
+  bottom: -6px;
+  left: 1px;
+  right: 0;
+  height: 8px;
   border-bottom: 1px dashed;
+}
+
+/* line 76 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
+@media (max-width: 1050px) {
+
+/* line 77 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
+  .title_h2 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+
+/* line 83 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
+@media (max-width: 750px) {
+
+/* line 84 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/text.styl */
+  .title_h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
 }

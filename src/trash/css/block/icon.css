@@ -1,9 +1,9 @@
 
-/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\icon.styl */
+/* line 297 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/icon.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\icon.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/icon.styl */
 .icon {
   display: inline-block;
   background-repeat: no-repeat;
@@ -11,28 +11,28 @@
   background-size: cover;
 }
 
-/* line 8 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\icon.styl */
+/* line 8 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/icon.styl */
 .icon-list {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 12 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\icon.styl */
+/* line 12 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/icon.styl */
 .icon-list__item {
   margin: 10px;
 }
 
-/* line 15 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\icon.styl */
+/* line 15 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/icon.styl */
 .icon-list__item:first-child {
   margin-left: 0 !important;
 }
 
-/* line 19 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\icon.styl */
+/* line 19 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/icon.styl */
 .icon-list__item:last-child {
   margin-right: 0 !important;
 }
 
-/* line 25 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\icon.styl */
+/* line 25 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/icon.styl */
 .icon-container_in-corner {
   position: absolute;
   z-index: 4;

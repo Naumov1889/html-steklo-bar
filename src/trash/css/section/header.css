@@ -1,13 +1,13 @@
 
-/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 297 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/node_modules/stylus/lib/functions/index.styl */
 
-/* line 48 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+/* line 54 : /home/n/WebstormProjects/html-steklo-bar/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 
-/* line 5 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 5 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -15,58 +15,65 @@ html {
   scroll-behavior: smooth;
 }
 
-/* line 12 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 12 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 a {
   color: inherit;
 }
 
-/* line 16 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 16 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .row {
   display: flex;
   flex-direction: row;
 }
 
-/* line 21 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 21 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .column {
   display: flex;
   flex-direction: column;
 }
 
-/* line 26 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 26 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .container {
   margin: 0 auto;
   max-width: 1110px;
   width: 90%;
 }
 
-/* line 32 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 32 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .grid_50 {
   width: 50%;
 }
 
-/* line 36 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 36 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 
-/* line 37 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 37 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .hr_vertical {
   width: 1px;
   height: Calc(80%);
   background-color: #22201e;
 }
+@media (max-width: 750px) {
+
+/* line 45 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
+  html {
+    font-size: 16px;
+  }
+}
 @media (max-width: 600px) {
 
-/* line 45 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 51 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
   .container {
     width: 92%;
   }
 }
 
-/* line 3 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 3 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 .header {
   height: 48px;
   border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
-/* line 7 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 7 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 .header .container {
   display: flex;
   justify-content: space-between;
@@ -74,14 +81,14 @@ a {
   height: 100%;
 }
 
-/* line 14 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 14 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 .header__contact {
   display: flex;
   align-items: center;
   min-width: 296px;
 }
 
-/* line 19 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 19 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 .header__contact span:not(.contact__text) {
   margin-right: 24px;
   color: #dfdfdf;
@@ -89,12 +96,12 @@ a {
   letter-spacing: 0.4px;
 }
 
-/* line 27 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 27 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 .header .hr_vertical {
   margin: 0 40px;
 }
 
-/* line 32 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 32 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -102,23 +109,23 @@ a {
   height: 100%;
 }
 
-/* line 38 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 38 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 .nav__item {
   margin: 0 10px;
   height: 100%;
 }
 
-/* line 42 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 42 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 .nav__item:first-child {
   margin-left: 0;
 }
 
-/* line 46 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 46 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 .nav__item:last-child {
   margin-right: 0;
 }
 
-/* line 51 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 51 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 .nav__link {
   display: flex;
   align-items: center;
@@ -129,7 +136,7 @@ a {
   letter-spacing: 0.38px;
 }
 
-/* line 60 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 60 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 .nav__link:before {
   display: none;
   content: '';
@@ -141,129 +148,138 @@ a {
   background-color: #f9b337;
 }
 
-/* line 71 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 71 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 .nav__link:hover {
   color: #f9b337;
 }
 
-/* line 74 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 74 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 .nav__link:hover:before {
   display: block;
 }
 
-/* line 82 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 82 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 @media (max-width: 1150px) {
 
-/* line 83 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 83 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 
-/* line 84 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 84 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .header__contact {
     min-width: 210px;
   }
 
-/* line 87 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 87 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .header__contact span:not(.contact__text) {
     margin-right: 6px;
     font-size: 12px;
   }
 
-/* line 92 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 92 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .header__contact .icon-list__item {
     margin: 2px;
     transform: scale(0.72);
   }
 
-/* line 98 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 98 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .header .hr_vertical {
     margin: 0 20px;
   }
 
-/* line 103 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 103 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 
-/* line 104 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 104 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .nav__link {
     font-size: 14px;
   }
 }
 
-/* line 110 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 110 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 @media (max-width: 750px) {
 
-/* line 111 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 111 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 
-/* line 112 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 112 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .header__contact {
     min-width: 84px;
   }
 
-/* line 115 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 115 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .header__contact span:not(.contact__text) {
     display: none;
   }
 
-/* line 121 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 121 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 
-/* line 122 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 122 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .nav__link {
     font-size: 12px;
   }
 }
 
-/* line 129 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 129 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 .header__logo,
 .header__contact .contact,
 .burger {
   display: none;
 }
 
-/* line 136 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 136 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
 @media (max-width: 550px) {
 
-/* line 137 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 137 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .header__logo,
   .header__contact .contact,
   .burger {
     display: block;
   }
 
-/* line 143 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 143 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .burger i,
   .burger i:after,
   .burger i:before {
     background-color: #fff;
   }
 
-/* line 147 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 147 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .header__contact {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
 
-/* line 152 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 152 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .header__contact .contact__text {
     font-size: 13px;
   }
 
-/* line 156 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 156 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
+  .header__contact .contact {
+    text-align: center;
+  }
 
-/* line 157 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 158 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
+  .header__contact .contact__text {
+    padding-left: 5px;
+  }
+
+/* line 161 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .header__contact .contact .icon {
     transform: scale(0.62) translateY(4px);
     transform-origin: bottom;
   }
 
-/* line 162 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 166 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .header__contact .icon-list {
+    padding: 10px 20px 10px 0;
     margin: 0 auto;
   }
 
-/* line 167 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 172 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .header__logo {
     width: 100px;
   }
 
-/* line 171 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 176 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .overlay {
     position: fixed;
     z-index: 5;
@@ -276,12 +292,12 @@ a {
     transition: 0.4s;
   }
 
-/* line 182 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 187 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .overlay_active {
     visibility: visible;
   }
 
-/* line 187 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 192 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .popbox_main_content {
     overflow: hidden;
     height: 100%;
@@ -290,22 +306,22 @@ a {
     width: 100%;
   }
 
-/* line 194 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 199 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .popbox_main_content_active {
     margin-left: -200px;
   }
 
-/* line 199 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 204 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .header {
     height: auto;
   }
 
-/* line 202 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 207 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .header .hr_vertical {
     display: none;
   }
 
-/* line 207 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 212 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .nav {
     position: fixed;
     z-index: 10;
@@ -319,18 +335,26 @@ a {
     overflow: hidden;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 30px;
+    padding-top: 24px;
   }
 
-/* line 221 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 226 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .nav_active {
     width: 200px;
   }
 
-/* line 229 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\header.styl */
+/* line 234 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
   .nav__item {
     margin: 15px auto;
+    padding-left: 30px;
     width: 200px;
     height: auto;
+  }
+
+/* line 241 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/header.styl */
+  .nav__link {
+    width: max-content;
+    font-size: 20px;
+    color: #5e5e5e;
   }
 }

@@ -1,10 +1,11 @@
 
-/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\top-section.styl */
+/* line 297 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/top-section.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\top-section.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/top-section.styl */
 .top-section {
-  background-color: #020202;
+  background: #020202 url("../../img/bg-top-section.jpg") bottom;
+  background-size: cover;
   color: #fff;
 }

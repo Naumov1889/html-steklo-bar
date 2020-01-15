@@ -1,15 +1,26 @@
 
-/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\contact.styl */
+/* line 297 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/contact.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\contact.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/contact.styl */
 .contact {
   display: flex;
+  align-items: center;
+}
+
+/* line 5 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/contact.styl */
+.contact_address {
   align-items: flex-start;
 }
 
-/* line 5 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\contact.styl */
+/* line 7 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/contact.styl */
+.contact_address .icon {
+  margin-top: 4px;
+}
+
+/* line 12 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/contact.styl */
 .contact__text {
+  padding-left: 10px;
   font-style: italic;
 }

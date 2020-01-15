@@ -1,7 +1,16 @@
 @import "../common.styl"
 
 .about-section {
+  padding: 80px 0 110px 0
+  background: #fff url("../../img/bg-about-section.jpg") center
+  background-size: cover;
+
+  .title_h2 {
+    margin-bottom: 24px;
+  }
+
   &__text {
+    padding: 0 80px 40px 80px
     color #515151
     line-height 27px
     text-align: center
@@ -19,10 +28,22 @@
     width 255px
     height 300px
 
+    &:nth-child(1) {
+      .about-section-feature__img {
+        left: Calc(50% + 6px)
+      }
+    }
+
+    &:nth-child(2) {
+      .about-section-feature__img {
+        left: Calc(50% - 5px)
+      }
+    }
+
     &__img {
       position: absolute;
       z-index 3
-      bottom: 100px
+      bottom: 90px
       left: 50%
       transform: translate(-50%, 0)
     }
@@ -30,7 +51,7 @@
     &__text {
       position: relative;
       z-index 3
-      padding-top: 200px
+      padding-top: 204px
       color #444444
       font-family $oswaldFont
       font-size 24px
@@ -58,6 +79,22 @@
         top 8px
         right 10px
       }
+    }
+  }
+}
+
+
+@media (max-width: 750px) {
+  .about-section {
+    padding: 50px 0 60px 0
+
+    .title_h2 {
+      margin-bottom: 14px;
+    }
+
+    &__text {
+      padding: 0 0 50px 0
+
     }
   }
 }

@@ -1,15 +1,15 @@
 
-/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\box.styl */
+/* line 297 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/box.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\box.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/box.styl */
 .box {
   position: relative;
   padding: 10px;
 }
 
-/* line 5 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\box.styl */
+/* line 5 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/box.styl */
 .box__content {
   content: '';
   position: relative;
@@ -20,7 +20,7 @@
   border: 1px solid #e7e7e7;
 }
 
-/* line 15 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\box.styl */
+/* line 15 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/box.styl */
 .box:before {
   content: '';
   position: absolute;
@@ -34,7 +34,7 @@
   background-color: #fff;
 }
 
-/* line 28 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\box.styl */
+/* line 28 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/box.styl */
 .box:after {
   content: '';
   position: absolute;

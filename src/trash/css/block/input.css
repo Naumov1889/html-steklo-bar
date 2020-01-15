@@ -1,9 +1,9 @@
 
-/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\input.styl */
+/* line 297 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/input.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\input.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/input.styl */
 .input {
   width: 100%;
   height: 85px;
@@ -15,36 +15,36 @@
   color: #020202;
 }
 
-/* line 13 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\input.styl */
+/* line 13 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/input.styl */
 ::-webkit-input-placeholder {
 /* Chrome/Opera/Safari */
   color: #2e1200;
 }
 
-/* line 17 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\input.styl */
+/* line 17 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/input.styl */
 ::-moz-placeholder {
 /* Firefox 19+ */
   color: #2e1200;
 }
 
-/* line 21 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\input.styl */
+/* line 21 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/input.styl */
 :-ms-input-placeholder {
 /* IE 10+ */
   color: #2e1200;
 }
 
-/* line 25 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\input.styl */
+/* line 25 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/input.styl */
 :-moz-placeholder {
 /* Firefox 18- */
   color: #2e1200;
 }
 
-/* line 29 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\input.styl */
+/* line 29 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/input.styl */
 .input-container {
   position: relative;
 }
 
-/* line 32 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\input.styl */
+/* line 32 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/input.styl */
 .input-container .icon {
   position: absolute;
   top: 50%;
@@ -52,17 +52,17 @@
   right: 28px;
 }
 
-/* line 38 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\input.styl */
+/* line 38 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/input.styl */
 .input-container .icon_user {
   right: 31px;
 }
 
-/* line 42 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\input.styl */
+/* line 42 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/input.styl */
 .input-container .icon_phone {
   right: 28px;
 }
 
-/* line 48 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\block\input.styl */
+/* line 48 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/input.styl */
 .input-label {
   margin: 12px 0 8px 0;
   display: block;

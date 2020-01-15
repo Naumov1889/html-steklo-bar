@@ -1,19 +1,29 @@
 
-/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\gallery-section.styl */
+/* line 297 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/gallery-section.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\gallery-section.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/gallery-section.styl */
+.gallery-section {
+  padding-bottom: 40px;
+  background: #fff url("../../img/bg-about-section.jpg") top;
+  background-size: cover;
+}
 
-/* line 5 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\gallery-section.styl */
+/* line 6 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/gallery-section.styl */
+.gallery-section .title_h2 {
+  padding: 24px 0 24px 0;
+}
+
+/* line 11 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/gallery-section.styl */
 .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: -13px -9px;
+  margin: -13px -20px;
 }
 
-/* line 11 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\gallery-section.styl */
+/* line 17 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/gallery-section.styl */
 .gallery__item {
   display: inline-block;
   margin: 13px 9px 13px 9px;
@@ -24,16 +34,27 @@
   border-radius: 5px;
 }
 
-/* line 22 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\gallery-section.styl */
+/* line 30 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/gallery-section.styl */
+@media (max-width: 1400px) {
+
+/* line 31 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/gallery-section.styl */
+
+/* line 32 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/gallery-section.styl */
+  .gallery-section .title_h2 {
+    padding-top: 0;
+  }
+}
+
+/* line 38 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/gallery-section.styl */
 @media (max-width: 560px) {
 
-/* line 23 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\gallery-section.styl */
+/* line 39 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/gallery-section.styl */
   .gallery {
     margin: -13px 0;
     padding: 0 16px;
   }
 
-/* line 26 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\gallery-section.styl */
+/* line 43 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/gallery-section.styl */
   .gallery__item {
     margin: 8px 9px 8px 9px;
   }

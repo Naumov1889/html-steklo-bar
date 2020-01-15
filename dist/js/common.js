@@ -27,9 +27,9 @@
 (function () {
     if (Boolean(document.querySelector('#map-container'))) {
         ymaps.ready(function (e) {
-            var myCenter = [58.630025065823255, 49.59629799999993];
-            if (window.innerWidth < 850) {
-                myCenter = [58.630525065823255, 49.59800799999993];
+            var myCenter = [55.73822628892799,37.581239996557617];
+            if (window.innerWidth < 800) {
+                myCenter = [55.73881628892799,37.58429196557617];
             }
             let myMap = new ymaps.Map('map-container', {
                     center: myCenter,
@@ -43,7 +43,7 @@
                     '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
                 ),
 
-                myPlacemark = new ymaps.Placemark([58.629625065823255, 49.59809799999993], {
+                myPlacemark = new ymaps.Placemark([55.73781628892799,37.58429196557617], {
                     hintContent: 'Бар Стекло',
                     balloonContent: 'Зубовский бульвар 16/20<br>' +
                         'строение 1'

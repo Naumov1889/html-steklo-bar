@@ -1,13 +1,13 @@
 
-/* line 297 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\map-contact-section.styl */
+/* line 297 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/node_modules/stylus/lib/functions/index.styl */
 
-/* line 48 : C:\Users\n\WebstormProjects\html-steklo-bar\node_modules\stylus\lib\functions\index.styl */
+/* line 54 : /home/n/WebstormProjects/html-steklo-bar/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 1 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 
-/* line 5 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 5 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -15,79 +15,200 @@ html {
   scroll-behavior: smooth;
 }
 
-/* line 12 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 12 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 a {
   color: inherit;
 }
 
-/* line 16 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 16 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .row {
   display: flex;
   flex-direction: row;
 }
 
-/* line 21 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 21 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .column {
   display: flex;
   flex-direction: column;
 }
 
-/* line 26 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 26 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .container {
   margin: 0 auto;
   max-width: 1110px;
   width: 90%;
 }
 
-/* line 32 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 32 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .grid_50 {
   width: 50%;
 }
 
-/* line 36 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 36 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 
-/* line 37 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 37 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
 .hr_vertical {
   width: 1px;
   height: Calc(80%);
   background-color: #22201e;
 }
+@media (max-width: 750px) {
+
+/* line 45 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
+  html {
+    font-size: 16px;
+  }
+}
 @media (max-width: 600px) {
 
-/* line 45 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\common.styl */
+/* line 51 : /home/n/WebstormProjects/html-steklo-bar/src/styl/common.styl */
   .container {
     width: 92%;
   }
 }
 
-/* line 3 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\map-contact-section.styl */
+/* line 3 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
 .map-contact-section {
   position: relative;
   height: 700px;
   background-color: #f4f0e2;
 }
 
-/* line 8 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\map-contact-section.styl */
+/* line 8 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
 .map-contact-section #map-container {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-/* line 15 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\map-contact-section.styl */
+/* line 14 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+.map-contact-section #map-container:before {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  height: 225px;
+  background: url("../../img/2-layers.png") top;
+  transform: rotate(180deg);
+}
+
+/* line 26 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
 .map-contact-section__box.box {
   position: absolute;
+  max-width: 444px;
+  width: 92%;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 24 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\map-contact-section.styl */
+/* line 35 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+.map-contact-section__box.box .box__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+}
 
-/* line 25 : C:\Users\n\WebstormProjects\html-steklo-bar\src\styl\section\map-contact-section.styl */
+/* line 43 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+.map-contact-section__box.box .title_h2 {
+  padding-bottom: 14px;
+}
+
+/* line 48 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+.map-contact-section .contact {
+  text-align: center;
+  margin: 0 0 14px 0;
+}
+
+/* line 52 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
 .map-contact-section .contact__text {
   color: #505050;
   font-family: 'Oswald', sans-serif;
   font-size: 28px;
   font-weight: 700;
   font-style: italic;
+}
+
+/* line 60 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+
+/* line 61 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+.map-contact-section .contact_email .contact__text {
+  font-size: 26px;
+}
+
+/* line 65 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+.map-contact-section .contact_email .icon {
+  margin-top: 4px;
+}
+
+/* line 70 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+.map-contact-section .contact_address {
+  line-height: 28px;
+}
+
+/* line 73 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+.map-contact-section .contact_address .icon {
+  margin-top: 2px;
+}
+
+/* line 81 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+@media (max-width: 800px) {
+
+/* line 82 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+  .map-contact-section {
+    height: 600px;
+  }
+
+/* line 85 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+  .map-contact-section__box.box {
+    z-index: 3;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+/* line 90 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+  .map-contact-section__box.box .box__content {
+    padding-bottom: 5px;
+  }
+
+/* line 95 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+  .map-contact-section .contact {
+    text-align: center;
+  }
+
+/* line 98 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+  .map-contact-section .contact .icon {
+    transform: scale(0.76);
+  }
+
+/* line 102 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+  .map-contact-section .contact__text {
+    padding-left: 6px;
+    font-size: 22px;
+  }
+
+/* line 107 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+
+/* line 108 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+  .map-contact-section .contact_email .contact__text {
+    font-size: 20px;
+  }
+
+/* line 112 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+  .map-contact-section .contact_email .icon {
+    margin-top: 2px;
+  }
+
+/* line 117 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+  .map-contact-section .contact_address {
+    line-height: 25px;
+  }
+
+/* line 120 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/map-contact-section.styl */
+  .map-contact-section .contact_address .icon {
+    margin-top: 2px;
+  }
 }
