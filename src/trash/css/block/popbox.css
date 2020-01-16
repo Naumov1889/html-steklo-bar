@@ -30,12 +30,23 @@
 }
 
 /* line 21 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
+.popbox .popbox_container_widest {
+  max-width: 90%;
+  text-align: left;
+}
+
+/* line 25 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
+.popbox .popbox_container_widest .box__content {
+  padding: 16px 40px 20px 40px;
+}
+
+/* line 30 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
 .popbox__subtitle {
   color: #515151;
   line-height: 27px;
 }
 
-/* line 26 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
+/* line 35 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
 .popbox__cross {
   position: absolute;
   z-index: 4;
@@ -43,8 +54,44 @@
   right: 9px;
 }
 
-/* line 34 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
+/* line 43 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
 [data-popbox-close],
 [data-popbox-target] {
   cursor: pointer;
+}
+
+/* line 49 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
+@media (max-width: 750px) {
+
+/* line 50 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
+
+/* line 51 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
+
+/* line 52 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
+  .popbox .popbox_container_narrow .box__content {
+    padding: 16px 15px 20px 15px;
+  }
+
+/* line 57 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
+
+/* line 58 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
+  .popbox .popbox_container_wide .box__content {
+    padding: 16px 15px 20px 15px;
+  }
+
+/* line 63 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
+  .popbox .popbox_container_widest {
+    max-width: 100%;
+    text-align: left;
+  }
+
+/* line 67 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
+  .popbox .popbox_container_widest .title_h2 {
+    font-size: 24px;
+  }
+
+/* line 71 : /home/n/WebstormProjects/html-steklo-bar/src/styl/block/popbox.styl */
+  .popbox .popbox_container_widest .box__content {
+    padding: 16px 15px 20px 15px;
+  }
 }

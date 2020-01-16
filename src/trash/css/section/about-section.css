@@ -162,20 +162,31 @@ a {
   right: 10px;
 }
 
+/* line 86 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/about-section.styl */
+@media (max-width: 1050px) {
+
 /* line 87 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/about-section.styl */
-@media (max-width: 750px) {
 
 /* line 88 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/about-section.styl */
+  .about-section .icon-container_in-corner {
+    display: block;
+  }
+}
+
+/* line 94 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/about-section.styl */
+@media (max-width: 750px) {
+
+/* line 95 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/about-section.styl */
   .about-section {
     padding: 50px 0 60px 0;
   }
 
-/* line 91 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/about-section.styl */
+/* line 98 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/about-section.styl */
   .about-section .title_h2 {
     margin-bottom: 14px;
   }
 
-/* line 95 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/about-section.styl */
+/* line 102 : /home/n/WebstormProjects/html-steklo-bar/src/styl/section/about-section.styl */
   .about-section__text {
     padding: 0 0 50px 0;
   }

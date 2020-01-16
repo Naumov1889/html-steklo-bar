@@ -18,6 +18,15 @@
     }
   }
 
+  .popbox_container_widest {
+    max-width 90%
+    text-align: left
+
+    .box__content {
+      padding: 16px 40px 20px 40px
+    }
+  }
+
   &__subtitle {
     color #515151
     line-height 27px
@@ -36,3 +45,32 @@
   cursor pointer
 }
 
+
+@media (max-width: 750px) {
+  .popbox {
+    .popbox_container_narrow {
+      .box__content {
+        padding: 16px 15px 20px 15px
+      }
+    }
+
+    .popbox_container_wide {
+      .box__content {
+        padding: 16px 15px 20px 15px
+      }
+    }
+
+    .popbox_container_widest {
+      max-width 100%
+      text-align: left
+
+      .title_h2 {
+        font-size: 24px
+      }
+
+      .box__content {
+        padding: 16px 15px 20px 15px
+      }
+    }
+  }
+}

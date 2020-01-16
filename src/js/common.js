@@ -22,5 +22,5 @@
 
 
     let popbox = new Popbox();
-    // popbox.open("popbox-callback-1");
+    popbox.open("popbox-success");
 }());
